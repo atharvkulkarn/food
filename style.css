@@ -1,0 +1,220 @@
+.nav-item a:link,a:visited{
+  color: white;
+}
+.din
+{
+  font-weight: 600;
+  font-family: Monotype corsiva;
+}
+.txt{
+  color: orangered;
+}
+
+.bookbtn
+{
+  background-color: orangered;
+  color: white;
+  font-weight:600 ;
+  border: orangered 5px solid;
+  font-size: 25px;
+}
+.bookbtn:hover
+{
+  background-color: black;
+}
+
+#fd1
+{
+  height: 120px;
+  width: 60px;
+  border: 2px solid white;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+.fd2
+{
+  height: 20px;
+  width: 20px;
+  border: 2px solid white;
+  border-radius: 50px;
+  margin-left:20px;
+  margin-top: 10px;
+  /* display: none; */
+  animation: anim  2s infinite;
+  position: absolute;
+}
+
+@keyframes anim
+{
+  from{top:0px;opacity:0.5;}
+  to{top:40px;opacity: 0;}
+}
+
+.menuitem
+{
+height: 200px;
+width: 250px;
+border: 3px solid white;
+color: white;
+margin: auto;
+padding: 20px;
+text-align: center;
+display: none;   
+}
+.hide:hover .menuitem
+{
+  display: block;
+}
+
+.nav-pills>li.nav-item>.nav-link{
+  margin-left: 80px;
+  background-color: white;
+  color: black;
+}
+.nav-pills>li.nav-item>.nav-link:hover{
+  background-color: orangered;
+  color: white;
+}
+
+.team:hover{
+  background-color: orangered;
+}
+
+
+.backimg{
+  background-image: url('images/blog_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.galhide{
+  display: none;
+}
+
+.show:hover .galhide{
+  display: block;
+}
+
+#ak{
+  border: 2px solid gray;
+}
+
+.purchasebtn:hover{
+  background-color: gray;
+
+}
+
+#scrollspyHeading7 .card:hover{
+box-shadow: 10px 10px 10px 10px lightgray;
+transform:scale(1.02,1.02);
+transition: 1ms;
+}
+
+input[type="text"],select,input[type="emai"]{
+  /* width: 50%; */
+  /* background-color: lightblue; */
+  border: 2px solid lightblue;
+  width: 300px;
+  height: 30px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.backimg1{
+  background-image: url('images/newsletter-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+
+
+.backimg2{
+  background-image: url('images/footer_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+
+.footerdiv{
+  font-size: 20px;
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-top: 2px dotted white;
+}
+
+
+/* top button icon */
+.button {
+  width: 50px;
+  height: 50px;
+  margin-left: 1340px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.button:hover {
+  width: 140px;
+  border-radius: 50px;
+  transition-duration: 0.3s;
+  /* background-color: rgb(181, 160, 255); */
+  align-items: center;
+}
+
+.button:hover .svgIcon {
+  /* width: 20px; */
+  transition-duration: 0.3s;
+  transform: translateY(-200%);
+}
+
+.button::before {
+  position: absolute;
+  bottom: -20px;
+  content: "Back to Top";
+  color: white;
+  /* transition-duration: .3s; */
+  font-size: 0px;
+}
+
+.button:hover::before {
+  font-size: 13px;
+  opacity: 1;
+  bottom: unset;
+  /* transform: translateY(-30px); */
+  transition-duration: 0.3s;
+}
+
